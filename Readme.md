@@ -1,6 +1,6 @@
 # 500px Downloader Chrome Extension
 
-![](assets/icon.png)
+![Logo](assets/icon.png)
 
 Simple Extensions to **Download 500px Images**. you can find two versions of the extensions in this repository:
 
@@ -12,6 +12,15 @@ Just inject a `js` on each image page on 500px and adds a download button on the
 
 ### `page action` version
 
-![](assets/page&#32;action.png)
+![Page action added to chrome toolbar](assets/page&#32;action.png)
 
 Adds a page action to chrome toolbar which only activates on 500px site on image pages. Capture current image by clicking on the extension icon to open in newtab.
+
+## How to install
+
+Clone this repository, open chrome and activate the developer mode:
+
+![How to turn developer mode on](assets/chrome&#32;developer&#32;mode.png)
+
+then, click on `Pack extension` button and choose the address of extension root directory.
+> the `private key file` section is not required in the first time.
