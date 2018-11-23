@@ -8,7 +8,8 @@ Simple Extensions to **Download 500px Images**. you can find two versions of the
 
 ![Download button added to toolbar below image](assets/download&#32;button.png)
 
-Just inject a `js` on each image page on 500px and adds a download button on the toolbar below image. there is a small problem on slow networks, cause sometimes it gets the thumbnail instead of the actual image.
+Just injects a `js` on each image page on 500px and adds a download button on the toolbar below image. 
+there is a small problem on slow networks, cause sometimes it gets the thumbnail instead of the actual image.
 
 ### `page action` version
 
