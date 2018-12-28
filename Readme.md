@@ -1,6 +1,6 @@
 # 500px Downloader Chrome Extension
 
-![Logo](assets/icon.png)
+[![Logo](assets/icon.png)]('/')
 
 Simple Extensions to **Download 500px Images**. you can find two versions of the extensions in this repository:
 
@@ -25,3 +25,8 @@ Clone this repository, open chrome and activate the developer mode:
 
 then, click on `Pack extension` button and choose the address of extension root directory.
 > the `private key file` section is not required in the first time.
+
+## Chrome extension?
+
+Go checkout my presentation on **Developing Chrome Extensions**,
+[here on ludus](https://app.ludus.one/c8b8a6b8-5807-4282-bfaa-ae044205aace).
