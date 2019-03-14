@@ -1,9 +1,10 @@
 function addDownloadButton() {
-  var imageAddress = $('.photo-show__img').prop('src');
-  var buttonContainer = $(".StyledLayout__Box-WazzZ.dBFrjm").eq(0);
+  var buttonContainer = $(".StyledLayout__Box-WazzZ.fdHYYi").eq(0);
   var iconSample = $('.Elements__PhotoButton-epgaOd.dtqSYC').eq(-1);
+  
 
   iconSample.clone().appendTo(buttonContainer).click(function () {
+    var imageAddress = $('.photo-show__img').prop('src');
     window.open(imageAddress, '_blank');
   }).find('svg').replaceWith(`
     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 50 50" style=" fill:#000000;">
